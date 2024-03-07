@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 8777157716851092732}
   - component: {fileID: 6703274617065877384}
-  - component: {fileID: 2489255848549650080}
   - component: {fileID: 339222207864025405}
   - component: {fileID: 123101717026729540}
   m_Layer: 0
@@ -67,19 +66,6 @@ MonoBehaviour:
   m_MoveObjectOut: 15
   m_DirectionalAnchorRotation: 1
   m_PoseProvider: {fileID: 0}
---- !u!114 &2489255848549650080
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1453646906658122652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdaf8e9c337531e429e4ca90c3841e0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
 --- !u!114 &339222207864025405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,7 +187,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4505698871281369242}
   - component: {fileID: 7376729850625437491}
-  - component: {fileID: 3108876648865556793}
   - component: {fileID: 3433050350877831914}
   - component: {fileID: 7504288854919565416}
   m_Layer: 0
@@ -258,19 +243,6 @@ MonoBehaviour:
   m_MoveObjectOut: 15
   m_DirectionalAnchorRotation: 1
   m_PoseProvider: {fileID: 0}
---- !u!114 &3108876648865556793
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3404956148143204383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fdaf8e9c337531e429e4ca90c3841e0f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  hand: {fileID: 0}
 --- !u!135 &3433050350877831914
 SphereCollider:
   m_ObjectHideFlags: 0
