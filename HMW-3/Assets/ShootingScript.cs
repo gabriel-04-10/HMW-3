@@ -6,12 +6,12 @@ using UnityEngine.XR.Interaction.Toolkit;
 public class ShootingScript : MonoBehaviour
 {
     public GameObject bullet;
-    public Transform spawn;
+    public Transform spawnPoint;
     public float Speed = 20;
     void Start()
     {
         XRGrabInteractable grabbable = GetComponent<XRGrabInteractable>();
-        grabbable.activated.AddListener(Bullet);
+        grabbable.activated.AddListener(FireBullet);
     }
 
     // Update is called once per frame
@@ -20,11 +20,11 @@ public class ShootingScript : MonoBehaviour
         
     }
 
-    public void Bullet(ActivateEventArgs arg)
+    public void FireBullet(ActivateEventArgs arg)
     {
         GameObject spawnedBullet = Instantiate(bullet);
-        spawnedBullet.transform.position = spawn.position;
-        spawnedBullet.GetComponent<Rigidbody>().velocity = spawn.forward * Speed;
+        spawnedBullet.transform.position = spawnPoint.position;
+        spawnedBullet.GetComponent<Rigidbody>().velocity = spawnPoint.forward * Speed;
         Destroy(spawnedBullet,5);
     }
 }
