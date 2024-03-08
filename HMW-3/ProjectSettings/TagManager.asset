@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Grabbable
   - grabbable
+  - right hand
+  - left hand
   layers:
   - Default
   - TransparentFX
