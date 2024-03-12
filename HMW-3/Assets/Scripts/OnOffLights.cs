@@ -29,18 +29,14 @@ public class OnOffLights : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        light = GetComponent<Light>(); 
+        light = GetComponent<Light>();
+        light.color = Color.red; 
         if (hasbeenpushed != 0 && hasbeenpushed2 != 0 && hasbeenpushed3 != 0 && hasbeenpushed4 != 0)
         {
             if (isRed)
                 {
                     light.color = Color.green;
                 }
-            else
-                {
-                    light.color = Color.red;
-                }
-            isRed =!isRed;  
         };
     }
 }
