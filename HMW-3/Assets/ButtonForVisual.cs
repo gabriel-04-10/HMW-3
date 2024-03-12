@@ -15,7 +15,6 @@ public class ButtonForVisual : MonoBehaviour
     private bool stop = false;
     public float followAngleTreshold= 45;
     public float resetButtonSpeed = 5;
-    public float hasBeenPushed = 0;
     void Start()
     {
         initialPos = visualTarget.localPosition;
@@ -34,7 +33,6 @@ public class ButtonForVisual : MonoBehaviour
             pokeAttachTransform = interactor.attachTransform;
             offset = visualTarget.position - pokeAttachTransform.position;
             float pokeAngle = Vector3.Angle(offset, visualTarget.TransformDirection(localAxis));
-            hasBeenPushed += 1;
 
             if (pokeAngle < followAngleTreshold)
             {
