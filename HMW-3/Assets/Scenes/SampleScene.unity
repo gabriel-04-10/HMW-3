@@ -1613,7 +1613,7 @@ GameObject:
   - component: {fileID: 153025553}
   - component: {fileID: 153025552}
   m_Layer: 0
-  m_Name: diplayText (3)
+  m_Name: Hint 1.2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3212,7 +3212,7 @@ GameObject:
   - component: {fileID: 320891242}
   - component: {fileID: 320891241}
   m_Layer: 0
-  m_Name: diplayText (2)
+  m_Name: Hint 1.1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7087,7 +7087,7 @@ MonoBehaviour:
     wondering where you are? You are currently in a room representing a forest. Do
     not worry, you are safe and no danger threatens you. You are free to explore
     and discover at your own pace.  \r\n\tYOUR GOAL IS TO FIND OUT HOW TO TURN ON
-    THE THREE LIGHTS. Good luck!\r\n\r\nSincerely, GEM Staff.\n"
+    THE THREE LIGHTS TO GREEN. Good luck!\r\n\r\nSincerely, GEM Staff.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10326,7 +10326,7 @@ GameObject:
   - component: {fileID: 1106640065}
   - component: {fileID: 1106640064}
   m_Layer: 0
-  m_Name: diplayText (3)
+  m_Name: Hint 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15751,7 +15751,7 @@ GameObject:
   - component: {fileID: 1695297593}
   - component: {fileID: 1695297592}
   m_Layer: 0
-  m_Name: diplayText (2)
+  m_Name: Hint 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
