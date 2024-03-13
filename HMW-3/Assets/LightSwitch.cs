@@ -18,11 +18,7 @@ public class LightSwitch : MonoBehaviour
                 {
                     light.color = Color.green;
                 }
-            else
-                {
-                  light.color = Color.red;
-                }
-              
+            isGreen = !isGreen;
         };
     }
 }
